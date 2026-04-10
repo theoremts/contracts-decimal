@@ -1,0 +1,25 @@
+{
+  "name": "@theoremts/contracts-decimal",
+  "version": "0.1.0",
+  "description": "Theorem contracts for decimal.js — formal verification for decimal arithmetic",
+  "license": "MIT",
+  "main": "./index.contracts.ts",
+  "files": [
+    "index.contracts.ts"
+  ],
+  "keywords": [
+    "theorem",
+    "theoremts",
+    "contracts",
+    "decimal.js",
+    "formal-verification"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theoremts/contracts-decimal"
+  },
+  "peerDependencies": {
+    "theoremts": ">=0.1.0",
+    "decimal.js": ">=10.0.0"
+  }
+}
